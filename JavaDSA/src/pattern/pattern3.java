@@ -28,10 +28,14 @@ public class pattern3 {
 //			System.out.println();
 //		}
 		
-		for(int i=0; i<n-1; i++) {
-			for(int j=n; j<i; j--) {
-				
+		for(int i=0; i<n; i++) {
+			for(int j=n-1; j>i; j--) {
+				System.out.print("\t");
 			}
+			for(int k=0; k<=i; k++) {
+				System.out.print("*\t");
+			}
+			System.out.println();
 		}
 
 	}
