@@ -7,5 +7,6 @@ public class countStringElement {
 	        arr[s.charAt(i) - 'a']++;  // Increment the count for the current character
 	    }
 	    return arr;  // Return the array of counts
+	    
 	}
 }
